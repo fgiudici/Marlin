@@ -2,15 +2,16 @@
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
 
-<p align="center">
-    <a href="/LICENSE"><img alt="GPL-V3.0 License" src="https://img.shields.io/github/license/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/marlinfirmware/marlin.svg"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/releases"><img alt="Last Release Date" src="https://img.shields.io/github/release-date/MarlinFirmware/Marlin"></a>
-    <a href="https://github.com/MarlinFirmware/Marlin/actions"><img alt="CI Status" src="https://github.com/MarlinFirmware/Marlin/actions/workflows/test-builds.yml/badge.svg"></a>
-    <a href="https://github.com/sponsors/thinkyhead"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/thinkyhead?color=db61a2"></a>
-    <br />
-    <a href="https://twitter.com/MarlinFirmware"><img alt="Follow MarlinFirmware on Twitter" src="https://img.shields.io/twitter/follow/MarlinFirmware?style=social&logo=twitter"></a>
-</p>
+
+> **Note**
+>
+>This branch contains customization of the current 2.0.x Marlin Firmware for the Easythreed X1 with heated bed mod (http://cmsj.net/2021/01/12/ez3dbedmod.html).
+>Main reason to switch to Marlin 2.x is to take advantage of the backlash compensation feature (the X1 suffers of severe backlash, so no way to print **real** circles without backlash compensation).
+
+> **Warning**
+>Customizations are done specifically for my X1 model: note that yours may be slightly different and need different tweaking. In particular, **note that the endstop positions and inverted axis have been configured in a different way than what is expected in stock Easythreed X1: _I have swapped X and Y axes connections (and related endstops) on my model. Wrong configuration of the endstops may end-up in damaging your stepper motors_** (yep, this happened to me while playing with the firmware).
+>
+
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
