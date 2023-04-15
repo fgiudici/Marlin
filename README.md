@@ -1,3 +1,9 @@
+> **Note**
+> Forked from https://github.com/cmsj/Marlin
+
+> **Warning**
+> Changes from the original fork here just adapt the firmware to X1 with swapped X/Y axis (I swapped the X/Y axis and endstop connectors on my printer). **Wrong configuration of the endstops may end-up in damaging your stepper motors**.
+
 # Marlin 3D Printer Firmware
 <img align="top" width=175 src="Documentation/Logo/Marlin%20Logo%20GitHub.png" />
  Additional documentation can be found in [our wiki](https://github.com/MarlinFirmware/Marlin/wiki/Main-Page).
